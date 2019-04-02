@@ -49,9 +49,9 @@ public class Calculator {
         int result = x*y;
         return result;
     }
-    public static int div(int x, int y)
+    public static float div(int x, int y)
     {
-        int result = x/y;
+        float result = (float) x/y;
         return result;
     }
 
